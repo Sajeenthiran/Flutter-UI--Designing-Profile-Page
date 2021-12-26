@@ -34,7 +34,7 @@ class Profile extends StatelessWidget {
                     ))
               ]),
           SizedBox(
-            height: 40,
+            height: 45,
           ),
           ListTile(
             title: Center(child: Text('Iheb Meftah')),
