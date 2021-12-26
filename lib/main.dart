@@ -1,4 +1,5 @@
 import 'package:designing_profile_page/profile.dart';
+import 'package:designing_profile_page/theme.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,9 +15,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: lightTheme,
+      darkTheme: darkTheme,
       home: const Profile(title: 'Profile Page '),
     );
   }
